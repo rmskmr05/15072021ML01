@@ -1,3 +1,3 @@
 # 15072021ML01
 Summer ML Session
-<h1>Infine odd number sequence</h1>
+<h1>Infinite odd number sequence</h1>
