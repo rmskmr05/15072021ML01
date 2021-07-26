@@ -188,7 +188,7 @@ x_dis, y_dis = 0, 0
 for d in data:
     x, y = vector(d)
     x_dis += x; y_dis += y
-print("Distance: ", round((x_dis**2 + y_dis**2)**0.5))
+print("Distance from Origin: ", round((x_dis**2 + y_dis**2)**0.5))
 
 
 
