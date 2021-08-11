@@ -23,7 +23,7 @@ msg.set('')
 def recommed():
     global pt, movies
     q = query.get()
-    if q.replace(' ', '').isalnum():
+    if q != '':
         movie = [c for c in pt.columns if q.lower() in c.lower()]
         sim_mat = pd.DataFrame(pt.corrwith(pt[movie[0]]).dropna(), columns=['Corr'])
         rating = pd.DataFrame(movies.groupby('movie_title')['rating'].mean())
